@@ -4,10 +4,10 @@
                       R20: False                         
              aspect_ratio: 1.0                           
                batch_size: 1                             
-          checkpoints_dir: ./pix2pix/checkpoints         
-         colorize_results: True                          	[default: False]
+          checkpoints_dir: /Users/bricechevalier/Documents/projects/svs-stage-assistant/BoostYourOwnDepth/pix2pix/checkpoints	[default: ./pix2pix/checkpoints]
+         colorize_results: False                         
                 crop_size: 672                           
-                 data_dir: input/                        	[default: None]
+                 data_dir: /Users/bricechevalier/Documents/projects/svs-stage-assistant/BoostYourOwnDepth/input/	[default: None]
                  dataroot: None                          
              dataset_mode: depthmerge                    
                  depthNet: None                          
@@ -16,7 +16,7 @@
                     epoch: latest                        
                      eval: False                         
             generatevideo: None                          
-                  gpu_ids: 0                             
+                  gpu_ids: -1                            	[default: 0]
                 init_gain: 0.02                          
                 init_type: normal                        
                  input_nc: 2                             
@@ -38,7 +38,7 @@
                      norm: none                          
                  num_test: 50                            
               num_threads: 4                             
-               output_dir: output                        	[default: None]
+               output_dir: /Users/bricechevalier/Documents/projects/svs-stage-assistant/BoostYourOwnDepth/output	[default: None]
                 output_nc: 1                             
         output_resolution: None                          
                     phase: test                          
